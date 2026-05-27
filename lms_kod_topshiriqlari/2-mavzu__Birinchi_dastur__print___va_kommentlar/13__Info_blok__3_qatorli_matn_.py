@@ -1,0 +1,1 @@
+print("Dastur haqida ma'lumot\nMuallif: Aziz Academy\nVersiya: 1.0")
