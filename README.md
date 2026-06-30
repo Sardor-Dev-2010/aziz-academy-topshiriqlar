@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22c55e,100:16a34a&height=200&section=header&text=Aziz%20Academy&fontSize=70&fontAlignY=35&animation=fadeIn" width="100%"/>
+  <img src="banner.svg" alt="Aziz Academy Banner" width="100%">
   <h1>AI Programming Assignments</h1>
   <p>
     <strong>Python · Algorithmic Problem Solving · Coding Exercises</strong>
