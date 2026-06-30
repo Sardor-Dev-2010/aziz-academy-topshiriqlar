@@ -72,7 +72,7 @@ The exercises are organized into **20+ topic categories** covering the Python pr
 ## 🚀 Usage
 
 ```bash
-git clone https://github.com/sardor007elmurodov-cpu/aziz-academy-topshiriqlar.git
+git clone https://github.com/Sardor-Dev-2010/aziz-academy-topshiriqlar.git
 cd aziz-academy-topshiriqlar
 ```
 
@@ -112,7 +112,7 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 ## 👨‍💻 Author
 
 **Elmurodov Sardor** — Full-Stack Developer (Python, Flutter, AI)
-- GitHub: [@sardor007elmurodov-cpu](https://github.com/sardor007elmurodov-cpu)
+- GitHub: [@Sardor-Dev-2010](https://github.com/Sardor-Dev-2010)
 - Email: sardor007elmurodov@gmail.com
 
 ---
