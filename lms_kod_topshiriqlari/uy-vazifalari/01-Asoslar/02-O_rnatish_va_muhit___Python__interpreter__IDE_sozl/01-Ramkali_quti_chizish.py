@@ -1,3 +1,3 @@
-print("+---------+")
-print("| Python |")
-print("+---------+")
+print("+----------+")
+print("|  PYTHON  |")
+print("+----------+")
