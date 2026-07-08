@@ -1,0 +1,184 @@
+/* ==========================================
+   1. UMUMIY SAHIFA STILLARI (RESET & BODY)
+   ========================================== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    flex-direction: column; /* Elementlarni ustma-ust joylash uchun */
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+/* ==========================================
+   2. HEADER (SARLAVHA) QISMI STILI
+   ========================================== */
+.main-header h1 {
+    color: #333;
+    margin: 0;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* ==========================================
+   3. MAIN KONTEYNER (TODO APPARAT) DIZAYNI
+   ========================================== */
+.todo-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: auto; /* Markazda mustahkam turishi uchun */
+}
+
+h2 {
+    margin-top: 0;
+    color: #444;
+    text-align: center;
+}
+
+/* ==========================================
+   4. HISOBLAGICH (SPAN COUNTER) STILI
+   ========================================== */
+.counter-box {
+    text-align: center;
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+#taskCounter {
+    background-color: #4a90e2;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* ==========================================
+   5. INPUT VA BUTTON (KIRITISH MEHNATI)
+   ========================================== */
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#taskInput:focus {
+    border-color: #4a90e2;
+}
+
+#addBtn {
+    padding: 12px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#addBtn:hover {
+    background-color: #357abd;
+}
+
+/* ==========================================
+   6. RO'YXAT (UL) VA ELEMENTLAR (LI) DIZAYNI
+   ========================================== */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background: #f9f9f9;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 4px solid #4a90e2;
+    animation: fadeIn 0.3s ease;
+}
+
+/* Vazifa matni uchun boshlang'ich holat */
+.task-text {
+    flex: 1;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    transition: all 0.3s ease;
+    word-break: break-all; /* Uzun matnlar qutidan chiqib ketmasligi uchun */
+}
+
+/* Bajarilgan vazifalar uchun klas (classList uchun) */
+.task-text.completed {
+    text-decoration: line-through; /* Matn ustiga chizish */
+    color: #aaa;                   /* Rangni xiralashtirish */
+    font-style: italic;            /* Kursiv shaklga keltirish */
+}
+
+/* ==========================================
+   7. O'CHIRISH TUGMASI (DELETE BUTTON)
+   ========================================== */
+.delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+}
+
+/* ==========================================
+   8. FOOTER (PASTKI QISM) STILI
+   ========================================== */
+.main-footer p {
+    color: #777;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* ==========================================
+   9. ANIMATSIYA (YANGI ELEMENT QO'SHILGANDA)
+   ========================================== */
+@keyframes fadeIn {
+    from { 
+        opacity: 0; 
+        transform: translateY(10px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}

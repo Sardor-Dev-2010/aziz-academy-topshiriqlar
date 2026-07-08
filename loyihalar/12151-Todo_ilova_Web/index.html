@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App — Vazifalar Ro'yxati</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>Zamonaviy Rejalashtiruvchi</h1>
+    </header>
+
+    <main class="todo-container">
+        
+        <section class="input-section">
+            <h2>📝 Vazifalar Ro'yxati</h2>
+            
+            <!-- YANGI: Vazifalar sonini ko'rsatuvchi span hisoblagich -->
+            <div class="counter-box">
+                Jami vazifalar: <span id="taskCounter">0</span>
+            </div>
+
+            <div class="input-group">
+                <input type="text" id="taskInput" placeholder="Yangi vazifa kiriting...">
+                <button id="addBtn">Qo'shish</button>
+            </div>
+        </section>
+
+        <section class="list-section">
+            <ul id="list"></ul>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 To-Do App. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
