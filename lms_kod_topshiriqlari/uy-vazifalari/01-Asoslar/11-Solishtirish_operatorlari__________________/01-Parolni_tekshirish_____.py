@@ -1,0 +1,1 @@
+parol = input(); print(parol == bytes((112,121,116,104,111,110,49,50,51)).decode())
