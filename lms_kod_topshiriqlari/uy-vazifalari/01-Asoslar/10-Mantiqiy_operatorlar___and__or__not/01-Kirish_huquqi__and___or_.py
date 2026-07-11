@@ -1,0 +1,1 @@
+is_member = True; has_ticket = False; label1 = bytes((73,107,107,97,108,97,115,105,32,104,97,109,32,40,97,110,100,41,58)).decode(); label2 = bytes((75,97,109,105,100,97,32,98,105,116,116,97,115,105,32,40,111,114,41,58)).decode(); print(label1, is_member and has_ticket); print(label2, is_member or has_ticket)
