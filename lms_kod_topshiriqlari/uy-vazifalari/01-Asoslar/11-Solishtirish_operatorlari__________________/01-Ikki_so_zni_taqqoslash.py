@@ -1,0 +1,6 @@
+a = input()
+b = input()
+natija = (a == b)
+natija2 = len(a) == len(b)
+print(natija)
+print(natija2)
