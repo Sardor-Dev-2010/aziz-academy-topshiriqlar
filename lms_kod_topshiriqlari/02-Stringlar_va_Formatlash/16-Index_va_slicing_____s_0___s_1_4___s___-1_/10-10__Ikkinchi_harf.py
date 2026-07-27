@@ -1,1 +1,2 @@
-print(input()[1])
+soz = input()
+print(soz[1])
