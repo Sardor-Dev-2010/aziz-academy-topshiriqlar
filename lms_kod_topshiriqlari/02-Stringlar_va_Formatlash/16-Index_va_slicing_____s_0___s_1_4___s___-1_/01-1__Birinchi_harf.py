@@ -1,4 +1,2 @@
-# Kodingizni shu yerga yozing
-n = input()
-natija = n[0]
-print(natija)
+soz = input()
+print(soz[0])
