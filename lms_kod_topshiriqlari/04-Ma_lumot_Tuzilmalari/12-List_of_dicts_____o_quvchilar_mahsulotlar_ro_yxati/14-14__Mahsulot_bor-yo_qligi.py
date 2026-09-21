@@ -1,11 +1,11 @@
 n = int(input())
-products = []
+mahsulotlar = []
 for _ in range(n):
-    name, price = input().split()
-    products.append({'name': name, 'price': int(price)})
-x = input().strip()
-found = any(p['name'] == x for p in products)
-if found:
+    nom, narx = input().split()
+    mahsulotlar.append({"nom": nom, "narx": int(narx)})
+qidirilayotgan = input()
+nomlar = [m["nom"] for m in mahsulotlar]
+if qidirilayotgan in nomlar:
     print("YES")
 else:
     print("NO")
