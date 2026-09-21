@@ -1,6 +1,6 @@
 n = int(input())
-products = []
+mahsulotlar = []
 for _ in range(n):
-    name, price = input().split()
-    products.append({'name': name, 'price': int(price)})
-print(n)
+    nom, narx = input().split()
+    mahsulotlar.append({"nom": nom, "narx": int(narx)})
+print(len(mahsulotlar))
