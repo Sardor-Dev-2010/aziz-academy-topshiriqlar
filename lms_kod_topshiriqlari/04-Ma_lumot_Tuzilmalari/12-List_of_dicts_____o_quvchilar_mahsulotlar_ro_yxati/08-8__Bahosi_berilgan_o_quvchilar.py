@@ -1,9 +1,11 @@
 n = int(input())
-students = []
+talabalar = []
 for _ in range(n):
-    name, score = input().split()
-    students.append({'name': name, 'score': int(score)})
-x = int(input())
-
-count = sum(1 for s in students if s['score'] == x)
-print(count)
+    ism, baho = input().split()
+    talabalar.append({"ism": ism, "baho": int(baho)})
+qidirilgan_baho = int(input())
+soni = 0
+for t in talabalar:
+    if t["baho"] == qidirilgan_baho:
+        soni += 1
+print(soni)
