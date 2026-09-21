@@ -1,9 +1,7 @@
-
 n = int(input())
-students = []
+talabalar = []
 for _ in range(n):
-    name, score = input().split()
-    students.append({'name': name, 'score': int(score)})
-
-max_students = max(students, key=lambda s: s['score'] )
-print(max_students['name'])
+    ism, baho = input().split()
+    talabalar.append({"ism": ism, "baho": int(baho)})
+eng_yaxshi = max(talabalar, key=lambda t: t["baho"])
+print(eng_yaxshi["ism"])
