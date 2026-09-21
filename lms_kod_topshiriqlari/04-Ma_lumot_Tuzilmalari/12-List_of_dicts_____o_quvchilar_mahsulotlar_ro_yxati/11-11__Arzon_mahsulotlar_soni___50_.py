@@ -1,8 +1,10 @@
-
 n = int(input())
-products = []
+mahsulotlar = []
 for _ in range(n):
-    name, price = input().split()
-    products.append({'name': name, 'price': int(price)})
-count = sum(1 for p in products if p['price'] < 50)
-print(count)
+    nom, narx = input().split()
+    mahsulotlar.append({"nom": nom, "narx": int(narx)})
+soni = 0
+for m in mahsulotlar:
+    if m["narx"] < 50:
+        soni += 1
+print(soni)
