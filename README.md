@@ -4,16 +4,16 @@
 
 ## 📊 Umumiy progress
 
-`██████░░░░░░░░░░░░░░` **31%**  (55/179 mavzu)
+`██████░░░░░░░░░░░░░░` **30%**  (54/179 mavzu)
 
-- ⭐ Jami ball: **76064**
-- 📤 GitHubga yuborilgan topshiriqlar: **891**
+- ⭐ Jami ball: **76054**
+- 📤 GitHubga yuborilgan topshiriqlar: **889**
 
 ## 🎯 Qaysi mavzuga yetdingiz
 
-**MODUL 4 — Ma'lumot Tuzilmalari** → **Big O — kirish ⭐ — nega dict tez, list sekin?**
+**MODUL 4 — Ma'lumot Tuzilmalari** → **Ma'lumotni tanlash ⭐ — list vs dict vs set**
 
-➡️ Keyingi mavzu: *🛠 Loyiha: Statistik hisoblagich — o'rtacha, mediana, moda*
+➡️ Keyingi mavzu: *Big O — kirish ⭐ — nega dict tez, list sekin?*
 
 <details open>
 <summary>Shu moduldagi mavzular</summary>
@@ -31,8 +31,8 @@
 - ✅ Set operatsiyalari — union, intersection, difference
 - ✅ List of dicts ⭐ — o'quvchilar/mahsulotlar ro'yxati
 - ✅ Nested structures — dict ichida list, list ichida dict
-- ✅ Ma'lumotni tanlash ⭐ — list vs dict vs set
-- ✅ Big O — kirish ⭐ — nega dict tez, list sekin?  ← yetgan joyingiz
+- ✅ Ma'lumotni tanlash ⭐ — list vs dict vs set  ← yetgan joyingiz
+- ⬜ Big O — kirish ⭐ — nega dict tez, list sekin?
 - ⬜ 🛠 Loyiha: Statistik hisoblagich — o'rtacha, mediana, moda
 - ⬜ 🛠 Loyiha: Konsol jadval — ma'lumotni jadval ko'rinishida
 - ⬜ Mustahkamlash 🔁 — barcha tuzilmalar bo'yicha mashqlar
@@ -46,7 +46,7 @@
 | 1 | ✅ Asoslar | `██████████` 100% | 15/15 |
 | 2 | ✅ Stringlar va Formatlash | `██████████` 100% | 10/10 |
 | 3 | ✅ Shartlar va Sikllar | `██████████` 100% | 15/15 |
-| 4 | 🔸 Ma'lumot Tuzilmalari | `████████░░` 83% | 15/18 |
+| 4 | 🔸 Ma'lumot Tuzilmalari | `████████░░` 78% | 14/18 |
 | 5 | ⬜ Comprehensions | `░░░░░░░░░░` 0% | 0/5 |
 | 6 | ⬜ Funksiyalar | `░░░░░░░░░░` 0% | 0/12 |
 | 7 | ⬜ Modullar va Fayllar | `░░░░░░░░░░` 0% | 0/15 |
