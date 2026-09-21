@@ -1,7 +1,7 @@
 n = int(input())
-products = []
+mahsulotlar = []
 for _ in range(n):
-    name, price = input().split()
-    products.append({'name': name, 'price': int(price)})
-max_price = max(p['price'] for p in products)
-print(max_price)
+    nom, narx = input().split()
+    mahsulotlar.append({"nom": nom, "narx": int(narx)})
+eng_qimmat = max(mahsulotlar, key=lambda m: m["narx"])
+print(eng_qimmat["narx"])
