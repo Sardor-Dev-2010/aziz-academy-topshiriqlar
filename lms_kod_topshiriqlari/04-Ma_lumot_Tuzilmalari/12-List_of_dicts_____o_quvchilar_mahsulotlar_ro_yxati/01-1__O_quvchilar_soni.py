@@ -1,7 +1,6 @@
-
 n = int(input())
-students = []
+talabalar = []
 for _ in range(n):
-    name, score = input().split()
-    students.append({'name': name, 'score': int(score)})
-print(n)
+    ism, baho = input().split()
+    talabalar.append({"ism": ism, "baho": int(baho)})
+print(len(talabalar))
