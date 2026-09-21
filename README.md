@@ -4,30 +4,38 @@
 
 ## 📊 Umumiy progress
 
-`███░░░░░░░░░░░░░░░░░` **13%**  (24/179 mavzu)
+`█████░░░░░░░░░░░░░░░` **26%**  (46/179 mavzu)
 
-- ⭐ Jami ball: **44461**
-- 📤 GitHubga yuborilgan topshiriqlar: **868**
+- ⭐ Jami ball: **72564**
+- 📤 GitHubga yuborilgan topshiriqlar: **869**
 
 ## 🎯 Qaysi mavzuga yetdingiz
 
-**MODUL 2 — Stringlar va Formatlash** → **🛠 Amaliy: Matn tahlili — so'z sanash, harf statistikasi**
+**MODUL 4 — Ma'lumot Tuzilmalari** → **Tuple unpacking ⭐ — a, b = b, a**
 
-➡️ Keyingi mavzu: *🛠 Mini-loyiha: Login + parol tekshirish (validatsiya)*
+➡️ Keyingi mavzu: *Dict — asoslar ⭐ — key/value, qiymatga murojaat*
 
 <details open>
 <summary>Shu moduldagi mavzular</summary>
 
-- ✅ Index va slicing ⭐ — s[0], s[1:4], s[::-1]
-- ✅ String metodlari — 1: lower, upper, strip, title
-- ✅ String metodlari — 2: replace, find, count, split, join
-- ✅ in operatori — substring izlash, mavjudlikni tekshirish
-- ✅ f-string ⭐ — zamonaviy formatlash (f"{ism}")
-- ✅ Boshqa formatlash — .format() va % (eski usullar)
-- ✅ Escape belgilar — \n, \t, \\, \"
-- ✅ Ko'p qatorli stringlar — """...""", docstring
-- ✅ 🛠 Amaliy: Matn tahlili — so'z sanash, harf statistikasi  ← yetgan joyingiz
-- ⬜ 🛠 Mini-loyiha: Login + parol tekshirish (validatsiya)
+- ✅ List — yaratish va index ⭐ — ro'yxat asoslari
+- ✅ List metodlari — append, insert, remove, pop, sort, reverse
+- ✅ List slicing va copy — list(), [:], shallow copy
+- ✅ 🛠 List bilan masalalar — filtrlash, transformatsiya
+- ✅ Tuple — o'zgarmas tuzilma, qachon kerak
+- ✅ Tuple unpacking ⭐ — a, b = b, a  ← yetgan joyingiz
+- ⬜ Dict — asoslar ⭐ — key/value, qiymatga murojaat
+- ⬜ Dict metodlari — keys(), values(), items(), get()
+- ⬜ 🛠 Dict bilan masalalar — lug'atlar, sozlamalar, hisoblagich
+- ⬜ Set — asoslar: yaratilish, in, len, takrorlanmaslik
+- ⬜ Set operatsiyalari — union, intersection, difference
+- ⬜ List of dicts ⭐ — o'quvchilar/mahsulotlar ro'yxati
+- ⬜ Nested structures — dict ichida list, list ichida dict
+- ⬜ Ma'lumotni tanlash ⭐ — list vs dict vs set
+- ⬜ Big O — kirish ⭐ — nega dict tez, list sekin?
+- ⬜ 🛠 Loyiha: Statistik hisoblagich — o'rtacha, mediana, moda
+- ⬜ 🛠 Loyiha: Konsol jadval — ma'lumotni jadval ko'rinishida
+- ⬜ Mustahkamlash 🔁 — barcha tuzilmalar bo'yicha mashqlar
 
 </details>
 
@@ -36,9 +44,9 @@
 | # | Modul | Progress | Mavzular |
 |---|-------|----------|----------|
 | 1 | ✅ Asoslar | `██████████` 100% | 15/15 |
-| 2 | 🔸 Stringlar va Formatlash | `█████████░` 90% | 9/10 |
-| 3 | ⬜ Shartlar va Sikllar | `░░░░░░░░░░` 0% | 0/15 |
-| 4 | ⬜ Ma'lumot Tuzilmalari | `░░░░░░░░░░` 0% | 0/18 |
+| 2 | ✅ Stringlar va Formatlash | `██████████` 100% | 10/10 |
+| 3 | ✅ Shartlar va Sikllar | `██████████` 100% | 15/15 |
+| 4 | 🔸 Ma'lumot Tuzilmalari | `███░░░░░░░` 33% | 6/18 |
 | 5 | ⬜ Comprehensions | `░░░░░░░░░░` 0% | 0/5 |
 | 6 | ⬜ Funksiyalar | `░░░░░░░░░░` 0% | 0/12 |
 | 7 | ⬜ Modullar va Fayllar | `░░░░░░░░░░` 0% | 0/15 |
@@ -58,4 +66,4 @@
 - `lms_yozma_topshiriqlari/` — yozma javoblar
 
 ---
-<sub>🤖 Aziz Academy · avtomatik yangilanadi · 2026-09-11 17:26</sub>
+<sub>🤖 Aziz Academy · avtomatik yangilanadi · 2026-09-21 09:32</sub>
