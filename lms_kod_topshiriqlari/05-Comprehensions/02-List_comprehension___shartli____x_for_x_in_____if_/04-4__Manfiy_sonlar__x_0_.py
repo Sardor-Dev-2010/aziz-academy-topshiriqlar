@@ -1,4 +1,3 @@
-
 num = list(map(int, input().split()))
 num1 = [str(x) for x in num if x < 0]
 if num1:
