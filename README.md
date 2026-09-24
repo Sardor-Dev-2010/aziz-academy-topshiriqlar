@@ -4,24 +4,24 @@
 
 ## 📊 Umumiy progress
 
-`███████░░░░░░░░░░░░░` **33%**  (59/179 mavzu)
+`███████░░░░░░░░░░░░░` **35%**  (62/179 mavzu)
 
-- ⭐ Jami ball: **102405**
-- 📤 GitHubga yuborilgan topshiriqlar: **980**
+- ⭐ Jami ball: **103653**
+- 📤 GitHubga yuborilgan topshiriqlar: **981**
 
 ## 🎯 Qaysi mavzuga yetdingiz
 
-**MODUL 5 — Comprehensions** → **List comprehension — kirish ⭐ — [x for x in ...]**
+**MODUL 5 — Comprehensions** → **Set comprehension — takrorlanmas natijalar**
 
-➡️ Keyingi mavzu: *List comprehension — shartli — [x for x in ... if ...]*
+➡️ Keyingi mavzu: *🛠 Amaliy: Ma'lumotni qayta ishlash — comprehension bilan tozalash*
 
 <details open>
 <summary>Shu moduldagi mavzular</summary>
 
-- ✅ List comprehension — kirish ⭐ — [x for x in ...]  ← yetgan joyingiz
-- ⬜ List comprehension — shartli — [x for x in ... if ...]
-- ⬜ Dict comprehension — mapping va filtrlash
-- ⬜ Set comprehension — takrorlanmas natijalar
+- ✅ List comprehension — kirish ⭐ — [x for x in ...]
+- ✅ List comprehension — shartli — [x for x in ... if ...]
+- ✅ Dict comprehension — mapping va filtrlash
+- ✅ Set comprehension — takrorlanmas natijalar  ← yetgan joyingiz
 - ⬜ 🛠 Amaliy: Ma'lumotni qayta ishlash — comprehension bilan tozalash
 
 </details>
@@ -34,7 +34,7 @@
 | 2 | ✅ Stringlar va Formatlash | `██████████` 100% | 10/10 |
 | 3 | ✅ Shartlar va Sikllar | `██████████` 100% | 15/15 |
 | 4 | ✅ Ma'lumot Tuzilmalari | `██████████` 100% | 18/18 |
-| 5 | 🔸 Comprehensions | `██░░░░░░░░` 20% | 1/5 |
+| 5 | 🔸 Comprehensions | `████████░░` 80% | 4/5 |
 | 6 | ⬜ Funksiyalar | `░░░░░░░░░░` 0% | 0/12 |
 | 7 | ⬜ Modullar va Fayllar | `░░░░░░░░░░` 0% | 0/15 |
 | 8 | ⬜ Xatolar, Test va Debug | `░░░░░░░░░░` 0% | 0/11 |
@@ -53,4 +53,4 @@
 - `lms_yozma_topshiriqlari/` — yozma javoblar
 
 ---
-<sub>🤖 Aziz Academy · avtomatik yangilanadi · 2026-09-24 09:46</sub>
+<sub>🤖 Aziz Academy · avtomatik yangilanadi · 2026-09-24 12:10</sub>
